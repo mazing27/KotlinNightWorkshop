@@ -40,8 +40,6 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
             @Override
             public void onClick(View v) {
                 if (null != mListener) {
-                    // Notify the active callbacks interface (the activity, if the
-                    // fragment is attached to one) that an item has been selected.
                     mListener.onClickHero(holder.item);
                 }
             }

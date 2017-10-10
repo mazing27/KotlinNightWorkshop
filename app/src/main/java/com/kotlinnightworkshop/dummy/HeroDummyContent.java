@@ -17,7 +17,6 @@ public class HeroDummyContent {
     private static final int COUNT = 25;
 
     static {
-        // Add some sample items.
         for (int i = 1; i <= COUNT; i++) {
             ITEMS.add(createDummyItem(i));
         }
